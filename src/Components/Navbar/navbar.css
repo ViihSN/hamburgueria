@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-navbar{
+    width: 100%;
+    background-color: black;
+}
+
+.logo{
+    width: 250px;
+    height: 13em;
+}
+
+.container-navbar-itens{
+    width: 100%;
+}
+
+ol,
+ul,
+dl {
+    margin: 0;
+}
+
+.container-navbar-itens ul{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: row;
+}
+
+.container-navbar-itens ul li{
+    color: #fff;
+    font-size: 1.5em;
+    display: flex;
+    padding-right: 1em;
+    list-style: none;
+    font-weight: bolder;
+}

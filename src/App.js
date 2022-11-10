@@ -1,52 +1,17 @@
-
 import React, { Component } from 'react';
+import 'animate.css';
 
-class App extends Component{
+import Navbar from "./Components/Navbar";
+import Home from "./Components/Home";
 
-    constructor(props){
-        super(props);
-        this.state = {
-            nome: 'Vitória',
-            contador: 0
-        };
+function App() {
 
-        this.aumentar = this.aumentar.bind(this);
-        this.diminuir = this.diminuir.bind(this);
-    }
-
-    aumentar(){
-        let state = this.state;
-        state.contador += 1;
-        state.nome = 'Viih';
-        this.setState(state);
-    }
-
-    diminuir(){
-        let state = this.state;
-        if(state.contador === 0){
-            alert('Opa chegou a zero!');
-            return;
-        }
-
-        state.contador -= 1;
-        this.setState(state);
-    }
-
-    render(){
-        return(
-            <div>
-                <h1>Contador</h1>
-                {this.state.nome}
-                <h3>
-                    <button onClick={this.diminuir}>-</button>
-                       {this.state.contador}
-                    <button onClick={this.aumentar}>+</button>
-                </h3>
-            </div>
-        )
-    }
+    return(
+        <>
+           <Navbar/>
+           <Home/>
+        </>
+    );
 }
-
-
 
 export default App;
