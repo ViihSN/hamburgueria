@@ -1,37 +1,54 @@
 import "./navbar.css";
-import { Link } from "react";
-import Logo from "../../assets/images/logo2.png";
+import Logo from "../../assets/images/logo2.jpg";
+import Chicken from "../../assets/images/HamburguerChicken.png";
+import Thumb1 from "../../assets/images/Thumb1.png";
+import Thumb2 from "../../assets/images/Thumb2.png";
+import Thumb3 from "../../assets/images/Thumb3.png";
 import { FaInstagramSquare, FaFacebookSquare, FaWhatsappSquare } from 'react-icons/fa';
+
+
 
 export default function Navbar() {
 
     return (
-
-        <div className="container-navbar">
-            <div className="top-navbar">
-                <img src={Logo} className="logo animate__animated animate__bounce" alt=""/>
-                <div>
-                    <FaInstagramSquare className="icons"/>
-                    <FaFacebookSquare className="icons"/>
-                    <FaWhatsappSquare className="icons"/>
+        
+        <section>
+            <div class="circle"></div>
+            <header>
+                <a href="#">
+                  <img src={Logo} class="logo" alt="..."/>
+                </a>
+                <ul>
+                    <li><a href="#">Quem Somos</a></li>
+                    <li><a href="#">Cardápio</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Endereço</a></li>
+                </ul>
+            </header>
+            <div class="content">
+                <div class="textBox">
+                    <h2>Não é só Hamburguer Artesanal<br/>É <span>V-Burger's!</span></h2>
+                    <p>Não passe vontade, peça já o seu hambúrguer.</p>
+                    <a href="#" class="button">Aqui!!!</a>
                 </div>
             </div>
-            <div className="container-navbar-itens">
-                <ul>
-                    <li>
-                        <a href="">Contato</a> 
-                    </li>
-                    <li>
-                        <a href="">Quem Somos</a> 
-                    </li>
-                    <li>
-                        <a href="">Localização</a> 
-                    </li>
-                    <li>
-                        <a href="">Lanches</a> 
-                    </li>
+            <div class="imgBox">
+                <img src={Chicken} class="hamburgueres"/>
+            </div>
+            <ul class="thumb">
+                <li>
+                    <img src={Thumb1} alt="..."/>
+                    <img src={Thumb2} alt="..."/>
+                    <img src={Thumb3} alt="..."/>
+                </li>
+            </ul>
+            <div class="icone-rede-sociais">
+                <ul >
+                    <li><a href="#"><FaInstagramSquare className="icons"/></a></li>
+                    <li><a href="#"><FaFacebookSquare className="icons"/></a></li>
+                    <li><a href="#"><FaWhatsappSquare className="icons"/></a></li>
                 </ul>
             </div>
-        </div>
+        </section>
     )
 }

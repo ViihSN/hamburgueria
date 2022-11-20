@@ -1,91 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-.container-navbar{
-    background-color: #F5EBDC;
-}
-
-.logo{
-    width: 250px;
-    height: 13em;
-}
-
-.container-navbar-itens{
-    margin-top: -4.5em;
+section{
+    position: relative;
     width: 100%;
-    padding: 1em 0 .51em 0;
-}
-
-ol,
-ul,
-dl {
-    margin: 0;
-}
-
-.container-navbar-itens ul{
+    min-height: 100vh;
+    padding: 100px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-right: 3em;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(255, 255, 255);
 }
 
-.container-navbar-itens ul li{
-    display: flex;
-    padding-right: 1em;
-    list-style: none;
-    font-weight: bolder;
-}
-
-.container-navbar-itens ul li a{
-  display: flex;
-  text-decoration: none;
-  color: #502314;
-  font-size: 23px;
-  border-bottom: 2px solid #502314;
-  padding: 5px;
-  border-radius: 6px;
-  transition: all .5s;
-}
-
-.container-navbar-itens ul li a:hover{
-    transform: scale(1.1);
-}
-
-.icons{
-    margin: .5em .5em 0 0em;
-    color: #502314;
-    font-size: 28px;
-}
-
-.top-navbar {
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
+    padding: 20px 100px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
+header .logo{
+    position: relative;
+    max-width: 100px;
+}
 
-/* Works on Firefox */
-* {
-    scrollbar-width: thin;
-    scrollbar-color: #FFAA00 rgb(61, 40, 0);
-  }
-  
-  /* Works on Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
-    width: 12px;
-  }
-  
-  *::-webkit-scrollbar-track {
-    background:  #FFAA00;
-  }
-  
-  *::-webkit-scrollbar-thumb {
-    background-color: rgb(61, 40, 0);
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+   
+}
+
+header ul li :hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+header ul li a{
+    display: inline-block;
+    color: rgb(56, 29, 29);
+    font-weight: 500;
+    margin-left: 40px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textBox{
+    position: relative;
+    max-width: 600px;
+    
+}
+
+.content .textBox h2{
+    color: rgb(56, 29, 29);
+    font-size: 3em;
+    line-height: 1.1em;
+    font-weight: 500;
+}
+
+.content .textBox h2 span{
+    color: rgb(56, 29, 29);
+    font-size: 1.2em;
+    line-height: 1.3em;
+    font-weight: 900;
+    background: #f5a904;
     border-radius: 20px;
-    border: 3px solid #FFAA00;
-  }
+}
+
+.content .textBox p{
+    color: rgb(56, 29, 29);
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+   
+.content .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: rgb(56, 29, 29);
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.content .imgBox{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+.content .imgBox img{
+    max-width: 340px;
+}
+
+.thumb{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.thumb li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.thumb li :hover{
+    transform: translateY(-15px);
+}
+
+.thumb li img{
+    max-width: 20%;
+}
+
+.icone-rede-sociais{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icone-rede-sociais li{
+    list-style: none;
+}
+
+.icone-rede-sociais li a{
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(1.9);
+    filter: invert(1);
+}
+
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(56, 29, 29);
+    clip-path: circle(600px at right 800px);
+}
