@@ -7,7 +7,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
 header{
     position: relative;
     top: 0;
@@ -17,7 +16,9 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #f7f7f7;
 }
+
 
 header .logo{
     position: relative;
@@ -27,6 +28,7 @@ header .logo{
 header ul{
     position: relative;
     display: flex;
+    height: 100%;
 }
 
 header ul li{
@@ -37,13 +39,20 @@ header ul li{
 header ul li :hover{
     transform: scale(1.1);
     transition: all 0.5s;
+    color: #2b1616;
+    filter: drop-shadow( 20px 30px 30px #2b1616);
 }
 
 header ul li a{
     display: inline-block;
-    color: rgb(56, 29, 29);
-    font-weight: 500;
+    color: #2b1616;
+    font-weight: 600;
     margin-left: 40px;
-    text-decoration: none;
     transition: 0.5s;
+    text-decoration: none;
+}
+
+header ul {
+    margin: 0%;
+    padding-left: 0%;
 }

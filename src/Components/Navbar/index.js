@@ -1,8 +1,10 @@
 import "./navbar.css";
+
 import Logo from "../../assets/images/logo2.jpg";
 
 
 export default function Navbar() {
+
 
     return (
         
