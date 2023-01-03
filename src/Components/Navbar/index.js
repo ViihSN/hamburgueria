@@ -11,7 +11,7 @@ export default function Navbar() {
         <>
             <header>
                 <a href="#">
-                  <img src={Logo} class="logo" alt="..."/>
+                  <img src={Logo} className="logo" alt="..."/>
                 </a>
                 <ul>
                     <li><a href="#">Quem Somos</a></li>
