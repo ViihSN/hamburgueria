@@ -85,14 +85,14 @@
 }
 
 .content .imgBox img{
-    max-width: 340px;
+    max-width: 350px;
 }
 
 .thumb{
     position: absolute;
     left: 50%;
     bottom: 20px;
-    transform: translateX(-50%);
+    transform: translateX(-30%);
     display: flex;
 }
 
@@ -101,6 +101,7 @@
     display: inline-block;
     margin: 0 20px;
     cursor: pointer;
+   
 }
 
 .thumb li img{
@@ -124,8 +125,14 @@
 
 .hamburgueres {
     position: relative;
-    margin-right: -6em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -11em;
     filter: drop-shadow( 20px 30px 20px rgba(0, 0, 0, 0.514));
+    opacity: 1;
+    width: 110%;
 }
 
 .progress-bar {
