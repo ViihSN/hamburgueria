@@ -39,7 +39,7 @@ header ul li :hover{
     transform: scale(1.1);
     transition: all 0.5s;
     color: #000000;
-    filter: drop-shadow( 20px 30px 30px #000000);
+    filter: drop-shadow( 20px 30px 30px #d11f1f);
 }
 
 header ul li a{

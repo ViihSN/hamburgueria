@@ -13,7 +13,7 @@ export default function Navbar() {
                 <a href="#">
                   <img src={Logo} className="logo" alt="..."/>
                 </a>
-                <ul>
+                <ul className="navbar">
                     <li><a href="#">Quem Somos</a></li>
                     <li><a href="#">Cardápio</a></li>
                     <li><a href="#">Contato</a></li>

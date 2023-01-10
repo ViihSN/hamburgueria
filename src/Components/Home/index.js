@@ -1,6 +1,6 @@
 import "./home.css";
 import Chicken from "../../assets/images/HamburguerChicken.png";
-import Provolone from "../../assets/images/HamburguerProvolone.png";
+import Vegano from "../../assets/images/HamburguerVegano.png";
 import Duplo from "../../assets/images/HamburguerDuplo.png";
 import Thumb1 from "../../assets/images/Thumb1.png";
 import Thumb2 from "../../assets/images/Thumb2.png";
@@ -35,7 +35,6 @@ export default function Home() {
 
             <section>
             <div className="home">
-                    <div className="circle"></div>
                     <div className="content">
                         <div className="textBox">
                             <div className="linhaLateral">
@@ -52,7 +51,7 @@ export default function Home() {
                         <ul className="thumb">
                             <li>
                                 <img onClick={() => novoLancheSelecionado(Chicken)} src={Thumb1} alt="..."/>
-                                <img onClick={() => novoLancheSelecionado(Provolone)} src={Thumb2} alt="..."/>
+                                <img onClick={() => novoLancheSelecionado(Vegano)} src={Thumb2} alt="..."/>
                                 <img onClick={() => novoLancheSelecionado(Duplo)} src={Thumb3} alt="..."/>
                             </li>
                         </ul>

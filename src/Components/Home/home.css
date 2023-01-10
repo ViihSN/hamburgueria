@@ -69,10 +69,10 @@
     font-weight: 500;
     letter-spacing: 1px;
     text-decoration: none;
-    transition: all 1s;
+    transition: 1.5s;
 }
 
-.content .textBox a:hover{
+.content .textBox a :hover{
     transform: scale(1.1);
 }
 
@@ -111,16 +111,6 @@
 
 .thumb li img:hover{
     transform: translateY(-15px);
-}
-
-.circle{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    /* background: #ffbb00; */
-    /* clip-path: circle(600px at right 800px); */
 }
 
 .hamburgueres {
