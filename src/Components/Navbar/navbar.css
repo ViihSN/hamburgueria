@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+   font-family: 'Dosis', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   transition: all 0.4s cubic-bezier(.43,1.1,.62,1.08);
+   text-transform: capitalize;
 }
 
 header{
@@ -18,13 +21,13 @@ header{
     align-items: center;
     background-color: #F7F7F7;
 }
-
+/* Logo */
 header .logo{
     position: relative;
     max-width: 100px;
     
 }
-
+/* NavBar */
 header ul{
     position: relative;
     display: flex;
@@ -37,9 +40,9 @@ header ul li{
 
 header ul li :hover{
     transform: scale(1.1);
-    transition: all 0.5s;
-    color: #000000;
-    filter: drop-shadow( 20px 30px 30px #d11f1f);
+    transition: all 0.9s;
+    color: #ff0000;
+    
 }
 
 header ul li a{
@@ -55,3 +58,100 @@ header ul {
     margin: 0%;
     padding-left: 0%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #menu-btn .fas {
+    font-size: 2.5rem;
+    cursor: pointer;
+    color:  #000000;
+    display: none;
+} */
+
+/* Media Queries */
+/* @media (max-width:1200px){
+
+    header{
+       padding:3rem 5%;
+    }
+    
+    header{
+        font-size: 55%;
+    }
+ 
+ }
+
+
+
+@media (max-width:991px){
+
+    header{
+       padding:3rem 2rem;
+    }
+
+    header{
+        font-size: 55%;
+    }
+} 
+
+ @media (max-width:768px){
+    
+    #menu-btn{
+       display: inline-block;
+    }
+ 
+    .fa-times{
+       transform: rotate(180deg);
+    }
+ }
+
+ @media (max-width:768px){
+
+
+    
+    header .navbar{
+        position: absolute;
+        top: 99%; left: 0; right: 0;
+        background-color: #F7F7F7;
+        border-top: .1rem solid #aaa;
+    }
+
+    header .navbar{
+        display: block;
+        margin: 2rem;
+    }
+ }
+
+@media (max-width:450px){
+
+    header{
+        font-size: 50%;
+    }
+}  */

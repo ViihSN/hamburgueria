@@ -14,11 +14,17 @@ export default function Navbar() {
                   <img src={Logo} className="logo" alt="..."/>
                 </a>
                 <ul className="navbar">
-                    <li><a href="#">Quem Somos</a></li>
+                    <li><a href="#">Home</a></li>
                     <li><a href="#">Cardápio</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Quem Somos</a></li>
                     <li><a href="#">Endereço</a></li>
+                    <li><a href="#">Contato</a></li>
                 </ul>
+                
+                {/* <div id="menu-btn" className="fas fa-bars"></div> */}
+                
+                
+                
             </header>
         </>
     )
