@@ -41,7 +41,8 @@ header ul li{
 header ul li :hover{
     transform: scale(1.1);
     transition: all 0.9s;
-    color: #ff0000;
+    color: #ff0000; 
+    text-decoration: none;
     
 }
 
