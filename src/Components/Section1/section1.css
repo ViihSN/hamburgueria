@@ -32,18 +32,41 @@
     transition: .1s ease-in-out;
     transform: scale(1.1);
     cursor: pointer;
+    
 }
 
-.modal-content{
-    transform: scaleX(1.4);
+.card-link {
+    background-color: #ff0000; 
+    color:#fff;
+    border-radius: 7px;
+    padding: 8px 8px;
+    text-align: center;
+    display: inline-block;
+    font-style: oblique;
+    text-decoration: none;
+    
 }
 
-.modal .col-md-6 img{
-    width: 100%; 
-    height: 280px;
+.card-link  {
+    -webkit-transition-duration: 0.2s; 
+    transition-duration: 0.2s;
 }
 
-.col-md-6 p{
+.card-link:hover {
+    background-color: #609c1b; 
+    color: white;
+}
+
+.modal-content:hover{
+    transform:scale(1.4);
+}
+
+.col-md-6 img{
+    width: 100%;
+    height: 200px;
+}
+
+.product_desc{
     box-sizing: border-box;
 }
 
@@ -51,23 +74,10 @@
     width: 150px;
 }
 
-.product_desc{
-    box-sizing: border-box;
-
+.card-price p{
+    font-size: 15px;
 }
 
-.container .modal{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.modal-button{
-    display: block;
-    width: 500px;
-    background: #000;
-    border: 0;
-    height: 50px;
-    margin-top: 200px;
-    color: #fff;
+.fa-star {
+    color: darkgoldenrod;
 }

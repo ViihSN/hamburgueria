@@ -1,24 +1,17 @@
-// import Modal from "react-responsive-modal";
-// import { useState } from "react";
 import "./section1.css";
 import Bacon from "../../assets/images/img-lanches/bacon.jpg";
 import Malagueta from "../../assets/images/img-lanches/malagueta.jpg";
 import Chicken from "../../assets/images/img-lanches/chicken.jpg";
-import Vegano  from "../../assets/images/img-lanches/vegano.jpg";
-import Simples from "../../assets/images/img-lanches/simples.jpg";
+import Cheddar  from "../../assets/images/img-lanches/cheddar.jpg";
+import Alface from "../../assets/images/img-lanches/alfaceroxo.jpg";
 import Alho from "../../assets/images/img-lanches/alho.jpg";
+import Teste from "../../assets/images/lanche1.jpg";
 import { BiFoodMenu } from 'react-icons/bi';
 
 
-// Modal.setAppElement('root')
+
 
 export default function Section1() {
-
-    // const [modalIsOpen, setIsOpen] = useState(false)
-
-    // function handleOpenModal(){
-    //     setIsOpen(true)
-    // }
 
     return(
 
@@ -33,120 +26,92 @@ export default function Section1() {
                     <div className="row">
 
                         <div className="col-md-4 mt-5">
-                            <div className="card">
+                            <div className="card" data-name="p-1">
                                 <img src={Bacon} className="card-img-top"/>
                                 <div className="card-body">
-                                    <h2 className="card-title">Lanche</h2>
+                                    <h2 className="card-title">Cheddar Bacon</h2>
                                     <div className="d-flex justify-content-between">
-                                        <p className="card-text">ndnfn dknmfiojfo kofkofkokf knmfijif</p>
-                                        <p className="card-text mr-4 text-success">R$40,00</p>
-                                    </div>
-                                    <a href="#" className="card-link" data-toggle="modal" data-target="#modalId">More</a> 
-
+                                        <i className="fas fa-star "></i>  
+                                        <p className="card-price mr-4 text-success">R$28,90</p>
+                                    </div> 
+                                    <a href="#" className="card-link">Peça Aqui!</a>
                                 </div>
-
                             </div>    
-
                         </div>
 
                         <div className="col-md-4 mt-5">
                             <div className="card">
                                 <img src={Malagueta} className="card-img-top"/>
                                 <div className="card-body">
-                                    <h2 className="card-title">Lanche</h2>
+                                    <h2 className="card-title">Double Chilli</h2>
                                     <div className="d-flex justify-content-between">
-                                        <p className="card-text">ndnfn dknmfiojfo kofkofkokf knmfijif</p>
-                                        <p className="card-text mr-4 text-success">R$40,00</p>
+                                        <i className="fas fa-star"></i>
+                                        <p className="card-price mr-4 text-success">R$30,00</p>
                                     </div>
-                                    <a href="#" className="card-link" data-toggle="modal" data-target="#modalId">More</a> 
-
+                                    <a href="#" className="card-link">Peça Aqui!</a> 
                                 </div>
-
                             </div>    
-
                         </div>
 
                         <div className="col-md-4 mt-5">
                             <div className="card">
                                 <img src={Chicken} className="card-img-top"/>
                                 <div className="card-body">
-                                    <h2 className="card-title">Lanche</h2>
+                                    <h2 className="card-title"> Mayo Chicken </h2>
                                     <div className="d-flex justify-content-between">
-                                        <p className='card-text'>ndnfn dknmfiojfo kofkofkokf knmfijif</p>
-                                        <p className='card-text mr-4 text-success'>R$40,00</p>
+                                        <i className="fas fa-star"></i>
+                                        <p className='card-price mr-4 text-success'>R$26,80</p>
                                     </div>
-                                    <a href="#" className="card-link" data-toggle="modal" data-target="#modalId">More</a> 
-
+                                    <a href="#" className="card-link">Peça Aqui!</a> 
                                 </div>
-
                             </div>    
-
                         </div>
 
                         <div className="col-md-4 mt-5">
                             <div className="card">
-                                <img src={Vegano} className="card-img-top"/>
+                                <img src={Cheddar} className="card-img-top"/>
                                 <div className="card-body">
-                                    <h2 className="card-title">Lanche</h2>
+                                    <h2 className="card-title">Special Sauce</h2>
                                     <div className="d-flex justify-content-between">
-                                        <p className='card-text'>ndnfn dknmfiojfo kofkofkokf knmfijif</p>
-                                        <p className='card-text mr-4 text-success'>R$40,00</p>
+                                        <i className="fas fa-star"></i>
+                                        <p className='card-price mr-4 text-success'>R$40,00</p>
                                     </div>
-                                    <a href="#" className="card-link" data-toggle="modal" data-target="#modalId">More</a> 
-
+                                    <a href="#" className="card-link">Peça Aqui!</a> 
                                 </div>
-
                             </div>    
-
                         </div>
 
                         <div className="col-md-4 mt-5">
                             <div className="card">
-                                <img src={Simples} className="card-img-top"/>
+                                <img src={Alface} className="card-img-top"/>
                                 <div className="card-body">
-                                    <h2 className="card-title">Lanche</h2>
+                                    <h2 className="card-title">Purple Salad</h2>
                                     <div className="d-flex justify-content-between">
-                                        <p className='card-text'>ndnfn dknmfiojfo kofkofkokf knmfijif</p>
-                                        <p className='card-text mr-4 text-success'>R$40,00</p>
+                                        <i className="fas fa-star"></i>
+                                        <p className='card-price mr-4 text-success'>R$40,00</p>
                                     </div>
-                                    <a href="#" className="card-link" data-toggle="modal" data-target="#modalId">More</a> 
-
+                                    <a href="#" className="card-link">Peça Aqui!</a> 
                                 </div>
-
                             </div>    
-
                         </div>
 
                         <div className="col-md-4 mt-5">
                             <div className="card">
                                 <img src={Alho} className="card-img-top"/>
                                 <div className="card-body">
-                                    <h2 className="card-title">Lanche</h2>
+                                    <h2 className="card-title">Special Garlic</h2>
                                     <div className="d-flex justify-content-between">
-                                        <p className='card-text'>ndnfn dknmfiojfo kofkofkokf knmfijif</p>
-                                        <p className='card-text mr-4 text-success'>R$40,00</p>
+                                        <i className="fas fa-star"></i>
+                                        <p className='card-price mr-4 text-success'>R$40,00</p>
                                     </div>
-                                    <a href="#" className="card-link" data-toggle="modal" data-target="#modalId">More</a> 
-
+                                    <a href="#" className="card-link">Peça Aqui!</a> 
                                 </div>
-
                             </div>    
-
                         </div>
-
                     </div>
-
                 </div>
-            </div>
-
-            <div className="modal" id="modalId" >
-                <button className="modal-button">
-                    Modal
-                </button>
-            </div>
-            
-            
                 
+            </div>
         </section>
-    );
+    )
 }

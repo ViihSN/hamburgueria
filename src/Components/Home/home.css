@@ -69,11 +69,6 @@
     font-weight: 500;
     letter-spacing: 1px;
     text-decoration: none;
-    transition: 1.5s;
-}
-
-.content .textBox a :hover{
-    transform: scale(1.1);
 }
 
 .content .imgBox{
@@ -101,7 +96,6 @@
     display: inline-block;
     margin: 0 20px;
     cursor: pointer;
-   
 }
 
 .thumb li img{
@@ -130,13 +124,13 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 10px;
+    height: 5px;
     background: #e81616;
     transform-origin: 0%;
 }
 
 /* Media Queries */
-@media (max-width:1200px){
+/* @media (max-width:1200px){
 
     section{
        padding:3rem 5%;
@@ -173,4 +167,4 @@
         display: none;
     }
 
-} 
+}  */
