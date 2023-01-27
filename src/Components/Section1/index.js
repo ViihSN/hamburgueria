@@ -110,7 +110,6 @@ export default function Section1() {
                         </div>
                     </div>
                 </div>
-                
             </div>
         </section>
     )

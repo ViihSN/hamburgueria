@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+} 
+
+/* Titulo da Sessão 3 = Quem Somos */
+
+#sessão2{
+    width: 100%;
+    height: 100vh;
+    background: #f7f7f7;
+    padding: 3rem;
+}
+
+.content1 {
+    width: 100%;
+    height: 85.6vh;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #F7F7F7;
+}
+
+.textBox1{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: -7em;
+}
+
+.content1 .textBox1 a{
+    position: relative;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.content1 .textBox1 p{
+    color: #000;
+    font-size: 1.2em;
+    line-height: 1.1em;
+    font-weight: 200;
+}
+
+
+
+.imagem-flutuante{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%);
+}
+
+.imagem-flutuante img{
+    animation: flutuacao 10s ease-in-out infinite;
+    width: 250px;
+}
+    
+@keyframes flutuacao {
+    
+    0%, 100%{
+        transform: translateY(12px);
+        
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+}
+    
+
+
+
+    
+
