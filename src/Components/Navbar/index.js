@@ -17,7 +17,7 @@ export default function Navbar() {
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Cardápio</a></li>
                     <li><a href="#">Quem Somos</a></li>
-                    <li><a href="#">Endereço</a></li>
+                    <li><a href="#">Galeria</a></li>
                     <li><a href="#">Contato</a></li>
                 </ul>
                 

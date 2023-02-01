@@ -16,47 +16,57 @@
     padding: 3rem;
 }
 
-.content1 {
-    width: 100%;
-    height: 85.6vh;
-    padding: 0px 100px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: #F7F7F7;
-}
-
-.textBox1{
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-top: -7em;
-}
-
-.content1 .textBox1 a{
-    position: relative;
-    max-width: 600px;
-    display: flex;
-    align-items: center;
-}
-
-.content1 .textBox1 p{
+.text-center{
     color: #000;
-    font-size: 1.2em;
-    line-height: 1.1em;
-    font-weight: 200;
+    font-size: 1.9em;
+    font-family: 900;
+    background: transparent;
+    padding: 15px 0;
+    text-decoration: dashed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
+.content1 {
+    padding: 100px 150px;
+	display: inline;
+    width: 80%;
+    float: right;
+    
+}
 
+.content1 .textBox1 h2{
+    color: #000;
+    font-size: 1.4em;
+    line-height: 1.1em;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
 
-.imagem-flutuante{
+.linhaLateral span{
+    color: #e81616;
+    font-weight: 600;
+}
+
+.imagem-flutuante {
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.imagem-flutuante img{
     transform: translate(-50%);
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    shape-outside: circle();
+    clip-path: circle();
+    background: #008000;
 }
 
 .imagem-flutuante img{
@@ -67,16 +77,34 @@
 @keyframes flutuacao {
     
     0%, 100%{
-        transform: translateY(12px);
+        transform: translateY(100px);
         
     }
     50%{
-        transform: translateY(-50px);
+        transform: translateY(-30px);
     }
 }
     
+.content1 a{
+    flex: 1;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    border: 1px solid;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+}
 
+.content1 a{
+    position: absolute;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+} 
 
-
-    
+.content1 a:hover, a:focus{
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+}
 

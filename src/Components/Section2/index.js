@@ -2,11 +2,13 @@ import "./section2.css";
 import { BsFillAwardFill } from "react-icons/bs";
 import Flutuante from "../../assets/images/img-flutuante.png";
 
+
+
+
 export default function Section2() {
     
     
     return(
-
 
         <section id="sessão2">
             
@@ -23,14 +25,14 @@ export default function Section2() {
                 <div className="content1">
                     <div className="textBox1">
                         <div className="linhaLateral">
-                            <p>Somos um novo formato um novo olhar sobre os hambúrgueres, uma nova receita, somente os produtos mais frescos, somente carne de qualidade.
+                            <h2>Somos um novo formato um novo olhar sobre os hambúrgueres, uma nova receita, somente os produtos mais frescos, somente carne de qualidade.
                                 Nosso objetivo é servir a você os melhores pratos saborosos e rápidos, para trazer prazer e deixar uma impressão agradável.<br/>
                                 A <span>V-Burger's</span> tem como objetivo principal a satisfação do cliente a partir de nosso trabalho. 
                                 Apreciamos muito a qualidade e a rapidez do cozimento, respeitamos as opiniões e o feedback, cozinhamos como para nós mesmos.
-                            </p>
+                            </h2>
                         </div>
-                        <a href="#" className="button">Pedir agora</a>
                     </div>
+                    <a href="#" className="button">Pedir agora</a>
                 </div>
             </div>
         </section>

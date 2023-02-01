@@ -46,7 +46,7 @@
 }
 
 .content .textBox h2 span{
-    color: #e81616;
+    color: #008000;
     font-size: 1.3em;
     font-weight: 900;
     background: transparent;
@@ -69,6 +69,13 @@
     font-weight: 500;
     letter-spacing: 1px;
     text-decoration: none;
+    transition: all 0.5s ease-out;
+}
+
+
+.textBox a:hover{
+    background-color: #008000;
+    color: rgb(255, 255, 255);
 }
 
 .content .imgBox{
@@ -127,6 +134,7 @@
     height: 5px;
     background: #e81616;
     transform-origin: 0%;
+    z-index: 3;
 }
 
 /* Media Queries */
