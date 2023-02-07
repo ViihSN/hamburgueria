@@ -5,7 +5,6 @@ import Chicken from "../../assets/images/img-lanches/chicken.jpg";
 import Cheddar  from "../../assets/images/img-lanches/cheddar.jpg";
 import Alface from "../../assets/images/img-lanches/alfaceroxo.jpg";
 import Alho from "../../assets/images/img-lanches/alho.jpg";
-import Teste from "../../assets/images/lanche1.jpg";
 import { BiFoodMenu } from 'react-icons/bi';
 
 
@@ -26,7 +25,7 @@ export default function Section1() {
                     <div className="row">
 
                         <div className="col-md-4 mt-5">
-                            <div className="card" data-name="p-1">
+                            <div className="card">
                                 <img src={Bacon} className="card-img-top"/>
                                 <div className="card-body">
                                     <h2 className="card-title">Cheddar Bacon</h2>

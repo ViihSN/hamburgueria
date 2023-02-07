@@ -1,4 +1,4 @@
-import "./galery.css";
+import "./section3.css";
 import { IoImages } from "react-icons/io5";
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -14,7 +14,7 @@ import foto6 from "../../assets/images/img-galery/foto-6.jpg";
 import foto7 from "../../assets/images/img-galery/foto-3.jpg";
 
 
-export default function Galery() {
+export default function Section3() {
 
     return(
         <section id="sessão3">
