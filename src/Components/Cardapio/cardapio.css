@@ -9,9 +9,9 @@
 
 /* Titulo da Sessão 2 = Cardápio */
 
-#sessão1{
+#cardapio{
     width: 100%;
-    height: 100vh;
+    height: 180vh;
 }
 
 .text-center{
@@ -27,12 +27,15 @@
     justify-content: center;
 }
 
+.container .row{
+    margin-left: 0 15px;
+}
+
 .card:hover{
     box-shadow: 20px 20px 80px -44px #000;
     transition: .1s ease-in-out;
     transform: scale(1.1);
     cursor: pointer;
-    
 }
 
 .card-link {
