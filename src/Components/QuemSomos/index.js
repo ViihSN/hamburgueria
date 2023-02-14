@@ -10,7 +10,7 @@ export default function QuemSomos() {
 
             <div className="container-qs">
                 <div className="text-center">
-                    < BsFillAwardFill color='green' size="40" />
+                    < BsFillAwardFill color='red' size="40" />
                     <h1>Quem Somos</h1>
                 </div>
                 <div className="imagem-flutuante">

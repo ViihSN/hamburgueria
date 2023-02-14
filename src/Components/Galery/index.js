@@ -15,7 +15,7 @@ export default function Galery() {
         <section id="galery">
 
             <div className="text-center">
-                < IoImages color='#ffbb00' size="40" />
+                < IoImages color='red' size="40" />
                 <h1>Galeria de Lanches</h1>
             </div>
             <div className="galery-container">

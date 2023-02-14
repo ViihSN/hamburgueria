@@ -2,6 +2,7 @@ import "./navbar.css";
 import Logo from "../../assets/images/logo.png";
 import { useState } from "react";
 
+
 export default function Navbar() {
 
     const [showNavbar, setShowNavbar] = useState(false);

@@ -61,6 +61,7 @@ header ul li a:hover::after{
     width: 100%;
 }
 
+header ul li a.active,
 header ul li a:hover{
     color: #ff1616;
     text-decoration: none;
@@ -90,9 +91,9 @@ header ul {
         margin: 0px 20px;
         z-index: 10001;
     }
-}
+} 
 
-@media (max-width: 991px){
+@media (max-width: 768px){
     #menu-icon{
         display: block;
         z-index: 100;
@@ -160,10 +161,12 @@ header ul {
         padding: 0px 15px;
         transition: all .50s ease;
     }
-    .navbar a:hover{
+
+    .navbar a:hover {
         color: #ff0000;
         transform: translate(5px);
     }
+
     .navbar.open{
         right: 2%;
     }
