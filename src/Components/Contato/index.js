@@ -1,5 +1,4 @@
 import "./contato.css";
-import image from "../../assets/images/image.jpg";
 import React, { Fragment } from 'react';
 import { ImBubbles4 } from "react-icons/im";
 
