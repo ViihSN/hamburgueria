@@ -19,7 +19,6 @@ export default function Cardapio() {
                     <BiFoodMenu color="red" size="40" />
                     <h1>Cardápio</h1>
                 </div>
-
                 <div className="container mt-4 d-flex mb-5">
                     <div className="row">
                         <div className="col-md-4 mt-5">

@@ -45,10 +45,10 @@
 }
 
 .content .textBox h2 span{
-    color: #008000;
+    color: #e81616;
     font-size: 1.3em;
     font-weight: 900;
-    font-family: mv boli;
+    font-family: 'Poppins', sans-serif;
     background: transparent;
     padding: 5px 0;
 }
@@ -141,6 +141,56 @@ a:focus {
 }
 
 /* Media Queries */
+
+@media (max-width:1150px){
+    header{
+        padding: 18px 7%;
+    }
+    section{
+        padding: 50px 7%;
+    }
+    .home .textBox h2{
+        font-size: 3rem;
+    }
+    .home .textBox span p{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:991px){
+    header{
+        padding: 18px 4%;
+    }
+    section{
+        padding: 50px 4%;
+    }
+    
+}
+
+@media (max-width:768px){
+    .home {
+        padding: 11px 4%;
+    }
+    .home .textBox span {
+        font-size: 0.9rem;
+    }
+    .home .textBox h2 {
+        font-size: 2.4rem;
+    }
+    .home .textBox p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:468px){
+    .home .textBox  {
+        padding-top: inherit;
+    }
+
+    
+}
+
+
 /* @media (max-width:1200px){
 
     section{

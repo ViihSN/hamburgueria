@@ -7,6 +7,7 @@ import Cardapio from "./Components/Cardapio";
 import QuemSomos from "./Components/QuemSomos";
 import Galery from "./Components/Galery";
 import Contato from "./Components/Contato";
+import Footer from "./Components/Footer";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
             <QuemSomos />
             <Galery />
             <Contato />
+            <Footer/>
         </>
     );
 }
